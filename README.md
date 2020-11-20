@@ -7,7 +7,7 @@
 
 
 ### 주요기능
-  - Google Speech-to-Text API && ADAMS.ai 문장 유사도 API 사용하여 
+  - Google Speech-to-Text API && ADAMS.ai 문장 유사도 API 사용
   - Real-time Script Output
 
 
