@@ -1,4 +1,4 @@
-#### Teleprompter-SST
+# Teleprompter-SST
 
 
 ### 프로젝트 소개 
