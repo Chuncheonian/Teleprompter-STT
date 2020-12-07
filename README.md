@@ -16,7 +16,7 @@
 
 
 ## 📜 주요 기능
-  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/) 사용
+  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/string-similarity) 사용
   - Real-time Script Output
 
 
@@ -85,7 +85,7 @@ Teleprompter-STT
 
 ## 📋 Reference
 - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- [**string-similarity API**](https://www.npmjs.com/package/)
+- [**string-similarity API**](https://www.npmjs.com/package/string-similarity)
   
 
 

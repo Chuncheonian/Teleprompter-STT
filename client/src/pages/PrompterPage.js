@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import axios from 'axios'
 import { withStyles, Button} from '@material-ui/core';
 import {
@@ -21,14 +21,16 @@ function PrompterPage({match}) {
   const [progress, setProgress] = React.useState(0);
 
   // Server로부터 Script 받아옴
-  axios.get(`api/${match.params["script"].slice(1)}`)
-    .then(res => {      // .then : 응답(상태코드200~300미만)성공시
-      console.log(res.data);
-      setWords(res.data.split(" ")); // 받아온 Script 문자열 처리
-    })
-    .catch(error => {
-      console.log(error);
-    });
+  useEffect(() => {
+    axios.get(`api/${match.params["script"].slice(1)}`)
+        .then(res => {      // .then : 응답(상태코드200~300미만)성공시
+          console.log(res.data);
+          setWords(res.data.split(" ")); // 받아온 Script 문자열 처리
+        })
+        .catch(error => {
+          console.log(error);
+        });
+    }, [match.params]);
 
   const handleListening = () => {
     if (listening) {

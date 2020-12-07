@@ -13,7 +13,7 @@ let scriptReceived = "";
 app.get('/api/:script', (req, res) => {
   res.send(
     scriptReceived
-  )
+  );
 });
 
 app.post('/api/:script', (req, res) => {
