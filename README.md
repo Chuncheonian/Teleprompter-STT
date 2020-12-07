@@ -11,19 +11,19 @@
 
 <!-- 프로젝트 소개 -->
 ## 🎙 프로젝트 소개
----
   - 음성에 맞춰 대본을 화면에 실시간으로 출력하는 프롬프터 서비스
   - Untact시대에 화상회의에서 편하게 발표할 수 있도록 도와주는 서비스
-<br />
+
+
 <!-- 주요기능 -->
 ## 📜 주요기능
 ---
   - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/) 사용
   - Real-time Script Output
-<br />
+
+
 <!-- Directory 구조 -->
 ## 🗂 Directory 구조
----
 ```bash
 Teleprompter-SST
 ├── client                        ---> Front-end [React]
@@ -60,11 +60,9 @@ Teleprompter-SST
 ├── server.js                     ---> Back-end [Node Express]
 └── yarn.lock
 ```
-<br />
-<!-- 설치 방법 -->
 
+<!-- 설치 방법 -->
 ## ⌨️ 설치 방법
----
 
 
 #### client 폴더 이동
@@ -87,21 +85,18 @@ Teleprompter-SST
 
 <!-- 팀원 -->
 ## 🧑‍💻 팀원
----
 - 권동영 (2016110307)
 - 김다솔 (2017110268)
 
 
 <!-- document -->
 ## 📋 Reference
----
 - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 - [**string-similarity API**](https://www.npmjs.com/package/)
   
 
 <!-- license -->
 ## 📋 License
----
 Teleprompter-SST is [MIT licensed](./LICENSE).
 <br></br>
 [👆Back To The Top](#Teleprompter-SST)
