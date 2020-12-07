@@ -17,7 +17,6 @@
 
 <!-- 주요기능 -->
 ## 📜 주요기능
----
   - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/) 사용
   - Real-time Script Output
 

@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import stringSimilarity from 'string-similarity'
 
 const StyledTeleprompter = styled.div`
-  font-size: 9rem;
+  font-size: 6rem;
   width: 100%;
-  height: 56rem;
+  height: 35rem;
   scroll-behavior: smooth;
   overflow: auto;
   display: block;
