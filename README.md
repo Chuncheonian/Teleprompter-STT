@@ -1,13 +1,13 @@
 # Teleprompter-STT
-<!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
-  - [프로젝트 소개](#-🎙-프로젝트-소개)
-  - [주요기능](#-📜-주요기능)
-  - [Directory 구조](#-🗂-Directory-구조)
-  - [설치 방법](#-⌨️-설치-방법)
-  - [팀원](#-🧑‍💻-팀원)
-  - [Reference](#-📋-Reference)
-  - [License](#-📋-License)
+  - [프로젝트 소개](#-프로젝트-소개)
+  - [주요 기능](#-주요-기능)
+  - [Directory 구조](#-directory-구조)
+  - [설치 방법](#keyboard-설치-방법)
+  - [팀원](#-팀원)
+  - [Reference](#-reference)
+  - [License](#-license)
 
 
 ## 🎙 프로젝트 소개
@@ -15,19 +15,16 @@
   - Untact시대에 화상회의에서 편하게 발표할 수 있도록 도와주는 서비스
 
 
-<!-- 주요기능 -->
-## 📜 주요기능
+## 📜 주요 기능
   - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/) 사용
   - Real-time Script Output
 
 
-<!-- Directory 구조 -->
 ## 🗂 Directory 구조
 ```bash
 Teleprompter-STT
 ├── client                        ---> Front-end [React]
 │   ├── public                    ---> 정적 파일 보관
-│   │   ├── favicon.ico
 │   │   ├── index.html
 │   │   ├── manifest.json
 │   │   └── robots.txt
@@ -48,40 +45,39 @@ Teleprompter-STT
 │   │   └── styles.js             ---> PrompterPage.js Style
 │   ├── .gitignore
 │   ├── package-lock.json
-│   ├── package.json
-│   └── yarn.lock
+│   └── package.json
 │
 ├── .gitignore
 ├── LICENSE                       ---> MIT License
 ├── package-lock.json
 ├── package.json
 ├── README.md
-├── server.js                     ---> Back-end [Node.js Express]
-└── yarn.lock
+└── server.js                     ---> Back-end [Node.js Express]
 ```
 
-## ⌨️ 설치 방법
+## :keyboard: 설치 방법
 
 
 #### client 폴더 이동
 `$ cd Teleprompter-STT/client`
 
-#### package.json에 명시된 모듈 설치
+#### React에 필요한 모듈 설치
 `$ npm install`
+
+#### Build File 생성
+`$ npm run build`
 
 #### Teleprompter-STT 폴더 이동
 `$ cd ..`
-#### package.json에 명시된 모듈 설치
+
+#### Node.js에 필요한 모듈 설치
 `$ npm install`
 
 #### 시작
-`$ npm run dev`
-
-#### Local Address 접속
-`http://localhost:3000`
+`$ npm run server`
 
 
-## 🧑‍💻 팀원
+## 👥 팀원
 - 권동영 (2016110307)
 - 김다솔 (2017110268)
 
