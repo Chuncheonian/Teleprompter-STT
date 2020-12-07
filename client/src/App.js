@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <>
         <Route path="/" component={MainPage} exact={true} />
-        <Route path="/prompter:script" component={PrompterPage} exact={true} />
+        <Route path="/prompter" component={PrompterPage} exact={true} />
       </>
     );
   }

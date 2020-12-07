@@ -70,7 +70,7 @@ class MainPage extends Component {
     this.setState({
       script: ''
   })
-    this.props.history.push(`/prompter:${this.script}`);
+    this.props.history.push('/prompter');
 }
   
   // Send script to Server

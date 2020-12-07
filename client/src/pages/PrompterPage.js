@@ -22,7 +22,7 @@ function PrompterPage({match}) {
 
   // Server로부터 Script 받아옴
   useEffect(() => {
-    axios.get(`api/${match.params["script"].slice(1)}`)
+    axios.get('api/script')
         .then(res => {      // .then : 응답(상태코드200~300미만)성공시
           console.log(res.data);
           setWords(res.data.split(" ")); // 받아온 Script 문자열 처리
