@@ -1,15 +1,15 @@
-# Teleprompter-SST
+# Teleprompter-STT
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-  - [프로젝트 소개](#프로젝트-소개)
-  - [주요기능](#주요기능)
-  - [Directory 구조](#directory-구조)
-  - [설치 방법](#설치-방법)
-  - [팀원](#팀원)
-  - [Reference](#reference)
-  - [License](#license)
+  - [프로젝트 소개](#-🎙-프로젝트-소개)
+  - [주요기능](#-📜-주요기능)
+  - [Directory 구조](#-🗂-Directory-구조)
+  - [설치 방법](#-⌨️-설치-방법)
+  - [팀원](#-🧑‍💻-팀원)
+  - [Reference](#-📋-Reference)
+  - [License](#-📋-License)
 
-<!-- 프로젝트 소개 -->
+
 ## 🎙 프로젝트 소개
   - 음성에 맞춰 대본을 화면에 실시간으로 출력하는 프롬프터 서비스
   - Untact시대에 화상회의에서 편하게 발표할 수 있도록 도와주는 서비스
@@ -24,7 +24,7 @@
 <!-- Directory 구조 -->
 ## 🗂 Directory 구조
 ```bash
-Teleprompter-SST
+Teleprompter-STT
 ├── client                        ---> Front-end [React]
 │   ├── public                    ---> 정적 파일 보관
 │   │   ├── favicon.ico
@@ -56,21 +56,20 @@ Teleprompter-SST
 ├── package-lock.json
 ├── package.json
 ├── README.md
-├── server.js                     ---> Back-end [Node Express]
+├── server.js                     ---> Back-end [Node.js Express]
 └── yarn.lock
 ```
 
-<!-- 설치 방법 -->
 ## ⌨️ 설치 방법
 
 
 #### client 폴더 이동
-`$ cd Teleprompter-SST/client`
+`$ cd Teleprompter-STT/client`
 
 #### package.json에 명시된 모듈 설치
 `$ npm install`
 
-#### Teleprompter-SST 폴더 이동
+#### Teleprompter-STT 폴더 이동
 `$ cd ..`
 #### package.json에 명시된 모듈 설치
 `$ npm install`
@@ -82,20 +81,19 @@ Teleprompter-SST
 `http://localhost:3000`
 
 
-<!-- 팀원 -->
 ## 🧑‍💻 팀원
 - 권동영 (2016110307)
 - 김다솔 (2017110268)
 
 
-<!-- document -->
+
 ## 📋 Reference
 - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 - [**string-similarity API**](https://www.npmjs.com/package/)
   
 
-<!-- license -->
+
 ## 📋 License
-Teleprompter-SST is [MIT licensed](./LICENSE).
+Teleprompter-STT is [MIT licensed](./LICENSE).
 <br></br>
-[👆Back To The Top](#Teleprompter-SST)
+[👆Back To The Top](#Teleprompter-STT)
