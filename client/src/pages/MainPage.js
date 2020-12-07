@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { post } from 'axios';
 import { withStyles, Typography, Paper, Button, TextField } from '@material-ui/core';
-// import PrompterPage from './PrompterPage';
 
 const styles = theme => ({
   root: {
@@ -71,12 +70,12 @@ class MainPage extends Component {
     this.setState({
       script: ''
   })
-    this.props.history.push('/prompter');
+    this.props.history.push(`/prompter:${this.script}`);
 }
   
   // Send script to Server
   addScript = () => {
-    const url = '/api/script';
+    const url = `/api/this.props.script`;
     let scriptJSON = { script : this.script };
     const config = {
         headers: {

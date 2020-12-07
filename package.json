@@ -1,5 +1,5 @@
 {
-  "name": "teleprompter-sst",
+  "name": "teleprompter-stt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,18 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chuncheonian/Teleprompter-SST.git"
+    "url": "git+https://github.com/Chuncheonian/Teleprompter-STT.git"
   },
   "author": "Dongyoung Kwon <ehddud2468@khu.ac.kr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Chuncheonian/Teleprompter-SST/issues"
+    "url": "https://github.com/Chuncheonian/Teleprompter-STT/issues"
   },
-  "homepage": "https://github.com/Chuncheonian/Teleprompter-SST#readme",
+  "homepage": "https://github.com/Chuncheonian/Teleprompter-STT#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "multer": "^1.4.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
