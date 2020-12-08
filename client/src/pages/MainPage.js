@@ -16,9 +16,10 @@ const styles = theme => ({
     textAlign: 'center',
     display: 'none',
     fontSize: '2.0rem',
+    fontColor: 'blue',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
-    }
+    },
   },
   paper: {
     marginTop: theme.spacing.unit * 5,
@@ -32,8 +33,8 @@ const styles = theme => ({
   },
   paperAlert: {
     marginTop: theme.spacing.unit * 5,
-    marginLeft: theme.spacing.unit * 90,
-    marginRight: theme.spacing.unit * 90
+    marginLeft: theme.spacing.unit * 53,
+    marginRight: theme.spacing.unit * 53
   }
 });
 
@@ -101,7 +102,7 @@ class MainPage extends Component {
         </Paper>
         <Button className={classes.button} variant="contained" color="primary" size="medium" onClick={this.handleScriptSubmit}>시작합니다.</Button>
         <Paper className={classes.paperAlert}>
-          <Alert severity="error"><strong>이 사이트는 Google Chrome에서 동작합니다.</strong></Alert>
+          <Alert severity="error">이 사이트는 Google Chrome에서 동작합니다. </Alert>
         </Paper>
       </Fragment>
     );
