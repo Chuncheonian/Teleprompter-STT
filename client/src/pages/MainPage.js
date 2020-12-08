@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { post } from 'axios';
 import { withStyles, Typography, Paper, Button, TextField } from '@material-ui/core';
+import Alert from '@material-ui/lab/Alert';
 
 const styles = theme => ({
   root: {
@@ -29,6 +30,11 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit * 20,
     fontSize: '1rem',
   },
+  paperAlert: {
+    marginTop: theme.spacing.unit * 5,
+    marginLeft: theme.spacing.unit * 98,
+    marginRight: theme.spacing.unit * 98
+  }
 });
 
 class MainPage extends Component {
@@ -94,6 +100,9 @@ class MainPage extends Component {
           <TextField id="outlined-textarea" label="Script를 입력해주세요." fullWidth="true" rows={20} placeholder="Script" multiline variant="outlined" onChange={this.getScript} />
         </Paper>
         <Button className={classes.button} variant="contained" color="primary" size="medium" onClick={this.handleScriptSubmit}>시작합니다.</Button>
+        <Paper className={classes.paperAlert}>
+          <Alert severity="error"><strong>이 사이트는 Google Chrome에서 동작합니다.</strong></Alert>
+        </Paper>
       </Fragment>
     );
   }
