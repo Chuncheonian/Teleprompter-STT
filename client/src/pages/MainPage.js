@@ -32,8 +32,8 @@ const styles = theme => ({
   },
   paperAlert: {
     marginTop: theme.spacing.unit * 5,
-    marginLeft: theme.spacing.unit * 98,
-    marginRight: theme.spacing.unit * 98
+    marginLeft: theme.spacing.unit * 90,
+    marginRight: theme.spacing.unit * 90
   }
 });
 
