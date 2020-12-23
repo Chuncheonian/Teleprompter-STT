@@ -90,7 +90,7 @@ class MainPage extends Component {
         }
     }
     return post(url, JSON.stringify(scriptJSON), config);
-}
+  }
 
   render() {
     const { classes } = this.props;

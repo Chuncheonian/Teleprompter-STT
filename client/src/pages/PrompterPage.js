@@ -1,11 +1,7 @@
 import React, { Fragment, useEffect } from 'react';
 import axios from 'axios'
 import { withStyles, Button} from '@material-ui/core';
-import {
-  GlobalStyles,
-  StyledApp,
-  StyledTeleprompter as Teleprompter,
-} from "../styles";
+import { GlobalStyles, StyledApp, StyledTeleprompter as Teleprompter } from "../styles";
 
 const styles = theme => ({
   button: {
@@ -13,8 +9,7 @@ const styles = theme => ({
   },
 });
 
-
-function PrompterPage({match}) {
+function PrompterPage({ match }) {
   const classes = styles();
   const [listening, setListening] = React.useState(false);
   const [words, setWords] = React.useState("".split(" "));

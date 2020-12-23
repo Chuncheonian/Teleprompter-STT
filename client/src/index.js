@@ -7,14 +7,14 @@ import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
-    typography: {
-        fontFamily: '"Noto Sans KR", serif',
-    }
+  typography: {
+    fontFamily: '"Noto Sans KR", serif',
+  }
 })
 
 ReactDOM.render(
   <BrowserRouter>
-  <MuiThemeProvider theme={theme}><App /></MuiThemeProvider>
+    <MuiThemeProvider theme={theme}><App /></MuiThemeProvider>
   </BrowserRouter>,
   document.getElementById('root')
 );

@@ -21,7 +21,7 @@ const Interim = styled.div`
   display: inline-block;
 `
 
-// Script 문자열 처리 ["I", "am", "happy"] -> "iamhappy"
+// Script 문자열 처리
 const onlyWord = (word) => 
   word
     .trim()                                 // 문자열 좌우에서 공백 제거
@@ -90,7 +90,6 @@ export default function Teleprompter({ words, progress, listening, onChange }) {
   }, [onChange, progress, words])
 
   React.useEffect(() => {
-    /* eslint-disable no-unused-expressions */
     scrollRef.current
       .querySelector(
         `[data-index='${
