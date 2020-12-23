@@ -11,9 +11,10 @@
 <br><br>
 
 ## 🎙 프로젝트 소개
-<center>
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/29334434/102837733-c4c7f800-443f-11eb-992c-276fe9753331.gif" width="600" height="300" />
-</center>
+</p>
 <br>
 
   - <strong>음성에 맞춰 대본을 화면에 실시간으로 출력하는 프롬프터 서비스</strong>
@@ -21,15 +22,15 @@
 <br><br>
 
 ## 📜 주요 기능
-  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**string-similarity API**](https://www.npmjs.com/package/string-similarity) 사용
+  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**String-Similarity API**](https://www.npmjs.com/package/string-similarity) 사용
   - Real-time Script Output
 <br><br>
 
 ## 🏛 System Architecture
 
-<center>
+<p align="center">
   <img width="400" alt="Architecture" src="https://user-images.githubusercontent.com/29334434/102837082-6e0dee80-443e-11eb-8bf1-d20404297a67.png">
-</center>
+</p>
 
 <br><br>
 ## 🗂 Directory 구조
@@ -111,7 +112,7 @@ Teleprompter-STT
 
 ## 📋 Reference
 - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- [**string-similarity API**](https://www.npmjs.com/package/string-similarity)
+- [**String-Similarity API**](https://www.npmjs.com/package/string-similarity)
 - [**Material-Ui**](https://material-ui.com/)
 <br><br>
 
