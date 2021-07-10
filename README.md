@@ -1,4 +1,5 @@
 # Teleprompter-STT  
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Chuncheonian/Teleprompter-STT)   
 <strong>Demo Link(Only work in chrome) 👉  [https://teleprompterstt.herokuapp.com](https://teleprompterstt.herokuapp.com)</strong>
 ## Table of Contents
   - [프로젝트 소개](#-프로젝트-소개)
