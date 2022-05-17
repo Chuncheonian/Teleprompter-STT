@@ -1,6 +1,9 @@
 # Teleprompter-STT  
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Chuncheonian/Teleprompter-STT)   
-<strong>Demo Link(Only work in chrome) 👉  [https://teleprompterstt.herokuapp.com](https://teleprompterstt.herokuapp.com)</strong>
+
+<a href="https://c11.kr/teleprompter-stt">
+    <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" />
+</a>
+
 ## Table of Contents
   - [프로젝트 소개](#-프로젝트-소개)
   - [주요 기능](#-주요-기능)
@@ -14,23 +17,23 @@
 ## 🎙 프로젝트 소개
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/29334434/102837733-c4c7f800-443f-11eb-992c-276fe9753331.gif" width="600" height="300" />
+    <img src = "./img/demo.gif" width="70%" alt="demo">
 </p>
 <br>
 
-  - <strong>음성에 맞춰 대본을 화면에 실시간으로 출력하는 프롬프터 서비스</strong>
-  - <strong>Untact시대에 화상회의에서 편하게 발표할 수 있도록 도와주는 서비스</strong>
+  - **음성에 맞춰 대본을 화면에 실시간으로 출력하는 프롬프터 서비스**
+  - **Untact시대에 화상회의에서 편하게 발표할 수 있도록 도와주는 서비스**
 <br><br>
 
 ## 📜 주요 기능
-  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) && [**String-Similarity API**](https://www.npmjs.com/package/string-similarity) 사용
+  - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API), [**String-Similarity API**](https://www.npmjs.com/package/string-similarity) 사용
   - Real-time Script Output
 <br><br>
 
 ## 🏛 System Architecture
 
 <p align="center">
-  <img width="400" alt="Architecture" src="https://user-images.githubusercontent.com/29334434/102837082-6e0dee80-443e-11eb-8bf1-d20404297a67.png">
+    <img src = "./img/architecture.png" width="80%" alt="architecture">
 </p>
 
 <br><br>
@@ -114,7 +117,7 @@ Teleprompter-STT
 ## 📋 Reference
 - [**Web Speech API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 - [**String-Similarity API**](https://www.npmjs.com/package/string-similarity)
-- [**Material-Ui**](https://material-ui.com/)
+- [**Material-UI**](https://mui.com/)
 <br><br>
 
 ## 📋 License
